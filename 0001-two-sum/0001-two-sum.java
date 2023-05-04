@@ -10,7 +10,7 @@ class Solution {
             if(mp.containsKey(mr)){
                 ans[0]=mp.get(mr);
                 ans[1]= i;
-                return ans;
+                return ans;// ans
 // put in map
             }
             mp.put(nums[i], i);
