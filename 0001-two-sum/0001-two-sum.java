@@ -11,7 +11,7 @@ class Solution {
                 ans[0]=mp.get(mr);
                 ans[1]= i;
                 return ans;
-
+//
             }
             mp.put(nums[i], i);
         }
